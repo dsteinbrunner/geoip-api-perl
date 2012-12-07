@@ -502,9 +502,6 @@ my @names = (
 			  "Saint Martin"
 );
 
-## created with:
-# perl -Ilib -e 'use MM::GeoIP::Reloaded::Country_Region_Names q{%country_region_names}; use Data::Dumper; $Data::Dumper::Sortkeys++; print Dumper(\%country_region_names)' >/tmp/crn.pl
-#
 my %country_region_names = (
   'AD' => {
             '02' => 'Canillo',
@@ -514,7 +511,7 @@ my %country_region_names = (
             '06' => 'Sant Julia de Loria',
             '07' => 'Andorra la Vella',
             '08' => 'Escaldes-Engordany'
-  },
+          },
   'AE' => {
             '01' => 'Abu Dhabi',
             '02' => 'Ajman',
@@ -523,7 +520,7 @@ my %country_region_names = (
             '05' => 'Ras Al Khaimah',
             '06' => 'Sharjah',
             '07' => 'Umm Al Quwain'
-  },
+          },
   'AF' => {
             '01' => 'Badakhshan',
             '02' => 'Badghis',
@@ -559,7 +556,7 @@ my %country_region_names = (
             '40' => 'Parvan',
             '41' => 'Daykondi',
             '42' => 'Panjshir'
-  },
+          },
   'AG' => {
             '01' => 'Barbuda',
             '03' => 'Saint George',
@@ -569,7 +566,7 @@ my %country_region_names = (
             '07' => 'Saint Peter',
             '08' => 'Saint Philip',
             '09' => 'Redonda'
-  },
+          },
   'AL' => {
             '40' => 'Berat',
             '41' => 'Diber',
@@ -583,7 +580,7 @@ my %country_region_names = (
             '49' => 'Shkoder',
             '50' => 'Tirane',
             '51' => 'Vlore'
-  },
+          },
   'AM' => {
             '01' => 'Aragatsotn',
             '02' => 'Ararat',
@@ -596,7 +593,7 @@ my %country_region_names = (
             '09' => 'Tavush',
             '10' => 'Vayots\' Dzor',
             '11' => 'Yerevan'
-  },
+          },
   'AO' => {
             '01' => 'Benguela',
             '02' => 'Bie',
@@ -616,7 +613,7 @@ my %country_region_names = (
             '18' => 'Lunda Sul',
             '19' => 'Bengo',
             '20' => 'Luanda'
-  },
+          },
   'AR' => {
             '01' => 'Buenos Aires',
             '02' => 'Catamarca',
@@ -642,7 +639,7 @@ my %country_region_names = (
             '22' => 'Santiago del Estero',
             '23' => 'Tierra del Fuego',
             '24' => 'Tucuman'
-  },
+          },
   'AT' => {
             '01' => 'Burgenland',
             '02' => 'Karnten',
@@ -653,7 +650,7 @@ my %country_region_names = (
             '07' => 'Tirol',
             '08' => 'Vorarlberg',
             '09' => 'Wien'
-  },
+          },
   'AU' => {
             '01' => 'Australian Capital Territory',
             '02' => 'New South Wales',
@@ -663,7 +660,7 @@ my %country_region_names = (
             '06' => 'Tasmania',
             '07' => 'Victoria',
             '08' => 'Western Australia'
-  },
+          },
   'AZ' => {
             '01' => 'Abseron',
             '02' => 'Agcabadi',
@@ -736,11 +733,11 @@ my %country_region_names = (
             '69' => 'Zangilan',
             '70' => 'Zaqatala',
             '71' => 'Zardab'
-  },
+          },
   'BA' => {
             '01' => 'Federation of Bosnia and Herzegovina',
             '02' => 'Republika Srpska'
-  },
+          },
   'BB' => {
             '01' => 'Christ Church',
             '02' => 'Saint Andrew',
@@ -753,7 +750,7 @@ my %country_region_names = (
             '09' => 'Saint Peter',
             '10' => 'Saint Philip',
             '11' => 'Saint Thomas'
-  },
+          },
   'BD' => {
             '81' => 'Dhaka',
             '82' => 'Khulna',
@@ -761,7 +758,7 @@ my %country_region_names = (
             '84' => 'Chittagong',
             '85' => 'Barisal',
             '86' => 'Sylhet'
-  },
+          },
   'BE' => {
             '01' => 'Antwerpen',
             '03' => 'Hainaut',
@@ -773,8 +770,10 @@ my %country_region_names = (
             '09' => 'West-Vlaanderen',
             '10' => 'Brabant Wallon',
             '11' => 'Brussels Hoofdstedelijk Gewest',
-            '12' => 'Vlaams-Brabant'
-  },
+            '12' => 'Vlaams-Brabant',
+            '13' => 'Flanders',
+            '14' => 'Wallonia'
+          },
   'BF' => {
             '15' => 'Bam',
             '19' => 'Boulkiemde',
@@ -821,7 +820,7 @@ my %country_region_names = (
             '76' => 'Yatenga',
             '77' => 'Ziro',
             '78' => 'Zondoma'
-  },
+          },
   'BG' => {
             '33' => 'Mikhaylovgrad',
             '38' => 'Blagoevgrad',
@@ -852,7 +851,7 @@ my %country_region_names = (
             '63' => 'Vidin',
             '64' => 'Vratsa',
             '65' => 'Yambol'
-  },
+          },
   'BH' => {
             '01' => 'Al Hadd',
             '02' => 'Al Manamah',
@@ -870,7 +869,7 @@ my %country_region_names = (
             '17' => 'Al Janubiyah',
             '18' => 'Ash Shamaliyah',
             '19' => 'Al Wusta'
-  },
+          },
   'BI' => {
             '02' => 'Bujumbura',
             '09' => 'Bubanza',
@@ -888,7 +887,7 @@ my %country_region_names = (
             '21' => 'Ruyigi',
             '22' => 'Muramvya',
             '23' => 'Mwaro'
-  },
+          },
   'BJ' => {
             '07' => 'Alibori',
             '08' => 'Atakora',
@@ -902,7 +901,7 @@ my %country_region_names = (
             '16' => 'Oueme',
             '17' => 'Plateau',
             '18' => 'Zou'
-  },
+          },
   'BM' => {
             '01' => 'Devonshire',
             '02' => 'Hamilton',
@@ -915,7 +914,7 @@ my %country_region_names = (
             '09' => 'Smiths',
             '10' => 'Southampton',
             '11' => 'Warwick'
-  },
+          },
   'BN' => {
             '07' => 'Alibori',
             '08' => 'Belait',
@@ -929,7 +928,7 @@ my %country_region_names = (
             '16' => 'Oueme',
             '17' => 'Plateau',
             '18' => 'Zou'
-  },
+          },
   'BO' => {
             '01' => 'Chuquisaca',
             '02' => 'Cochabamba',
@@ -940,7 +939,7 @@ my %country_region_names = (
             '07' => 'Potosi',
             '08' => 'Santa Cruz',
             '09' => 'Tarija'
-  },
+          },
   'BR' => {
             '01' => 'Acre',
             '02' => 'Alagoas',
@@ -969,7 +968,7 @@ my %country_region_names = (
             '29' => 'Goias',
             '30' => 'Pernambuco',
             '31' => 'Tocantins'
-  },
+          },
   'BS' => {
             '05' => 'Bimini',
             '06' => 'Cat Island',
@@ -992,7 +991,7 @@ my %country_region_names = (
             '33' => 'Rock Sound',
             '34' => 'Sandy Point',
             '35' => 'San Salvador and Rum Cay'
-  },
+          },
   'BT' => {
             '05' => 'Bumthang',
             '06' => 'Chhukha',
@@ -1012,7 +1011,7 @@ my %country_region_names = (
             '20' => 'Thimphu',
             '21' => 'Tongsa',
             '22' => 'Wangdi Phodrang'
-  },
+          },
   'BW' => {
             '01' => 'Central',
             '03' => 'Ghanzi',
@@ -1023,7 +1022,7 @@ my %country_region_names = (
             '09' => 'South-East',
             '10' => 'Southern',
             '11' => 'North-West'
-  },
+          },
   'BY' => {
             '01' => 'Brestskaya Voblasts\'',
             '02' => 'Homyel\'skaya Voblasts\'',
@@ -1032,7 +1031,7 @@ my %country_region_names = (
             '05' => 'Minskaya Voblasts\'',
             '06' => 'Mahilyowskaya Voblasts\'',
             '07' => 'Vitsyebskaya Voblasts\''
-  },
+          },
   'BZ' => {
             '01' => 'Belize',
             '02' => 'Cayo',
@@ -1040,7 +1039,7 @@ my %country_region_names = (
             '04' => 'Orange Walk',
             '05' => 'Stann Creek',
             '06' => 'Toledo'
-  },
+          },
   'CA' => {
             'AB' => 'Alberta',
             'BC' => 'British Columbia',
@@ -1055,7 +1054,7 @@ my %country_region_names = (
             'QC' => 'Quebec',
             'SK' => 'Saskatchewan',
             'YT' => 'Yukon Territory'
-  },
+          },
   'CD' => {
             '01' => 'Bandundu',
             '02' => 'Equateur',
@@ -1067,7 +1066,7 @@ my %country_region_names = (
             '10' => 'Maniema',
             '11' => 'Nord-Kivu',
             '12' => 'Sud-Kivu'
-  },
+          },
   'CF' => {
             '01' => 'Bamingui-Bangoran',
             '02' => 'Basse-Kotto',
@@ -1086,7 +1085,7 @@ my %country_region_names = (
             '16' => 'Sangha-Mbaere',
             '17' => 'Ombella-Mpoko',
             '18' => 'Bangui'
-  },
+          },
   'CG' => {
             '01' => 'Bouenza',
             '04' => 'Kouilou',
@@ -1099,7 +1098,7 @@ my %country_region_names = (
             '12' => 'Brazzaville',
             '13' => 'Cuvette',
             '14' => 'Cuvette-Ouest'
-  },
+          },
   'CH' => {
             '01' => 'Aargau',
             '02' => 'Ausser-Rhoden',
@@ -1127,7 +1126,7 @@ my %country_region_names = (
             '24' => 'Zug',
             '25' => 'Zurich',
             '26' => 'Jura'
-  },
+          },
   'CI' => {
             '74' => 'Agneby',
             '75' => 'Bafing',
@@ -1148,7 +1147,7 @@ my %country_region_names = (
             '90' => 'Vallee du Bandama',
             '91' => 'Worodougou',
             '92' => 'Zanzan'
-  },
+          },
   'CL' => {
             '01' => 'Valparaiso',
             '02' => 'Aisen del General Carlos Ibanez del Campo',
@@ -1167,7 +1166,7 @@ my %country_region_names = (
             '15' => 'Tarapaca',
             '16' => 'Arica y Parinacota',
             '17' => 'Los Rios'
-  },
+          },
   'CM' => {
             '04' => 'Est',
             '05' => 'Littoral',
@@ -1179,7 +1178,7 @@ my %country_region_names = (
             '12' => 'Extreme-Nord',
             '13' => 'Nord',
             '14' => 'Sud'
-  },
+          },
   'CN' => {
             '01' => 'Anhui',
             '02' => 'Zhejiang',
@@ -1212,15 +1211,12 @@ my %country_region_names = (
             '31' => 'Hainan',
             '32' => 'Sichuan',
             '33' => 'Chongqing'
-  },
+          },
   'CO' => {
             '01' => 'Amazonas',
             '02' => 'Antioquia',
             '03' => 'Arauca',
             '04' => 'Atlantico',
-            '05' => 'Bolivar Department',
-            '06' => 'Boyaca Department',
-            '07' => 'Caldas Department',
             '08' => 'Caqueta',
             '09' => 'Cauca',
             '10' => 'Cesar',
@@ -1230,7 +1226,6 @@ my %country_region_names = (
             '15' => 'Guainia',
             '16' => 'Huila',
             '17' => 'La Guajira',
-            '18' => 'Magdalena Department',
             '19' => 'Meta',
             '20' => 'Narino',
             '21' => 'Norte de Santander',
@@ -1251,7 +1246,7 @@ my %country_region_names = (
             '36' => 'Boyaca',
             '37' => 'Caldas',
             '38' => 'Magdalena'
-  },
+          },
   'CR' => {
             '01' => 'Alajuela',
             '02' => 'Cartago',
@@ -1260,7 +1255,7 @@ my %country_region_names = (
             '06' => 'Limon',
             '07' => 'Puntarenas',
             '08' => 'San Jose'
-  },
+          },
   'CU' => {
             '01' => 'Pinar del Rio',
             '02' => 'Ciudad de la Habana',
@@ -1277,7 +1272,7 @@ my %country_region_names = (
             '14' => 'Sancti Spiritus',
             '15' => 'Santiago de Cuba',
             '16' => 'Villa Clara'
-  },
+          },
   'CV' => {
             '01' => 'Boa Vista',
             '02' => 'Brava',
@@ -1295,7 +1290,7 @@ my %country_region_names = (
             '18' => 'Sao Filipe',
             '19' => 'Sao Miguel',
             '20' => 'Tarrafal'
-  },
+          },
   'CY' => {
             '01' => 'Famagusta',
             '02' => 'Kyrenia',
@@ -1303,7 +1298,7 @@ my %country_region_names = (
             '04' => 'Nicosia',
             '05' => 'Limassol',
             '06' => 'Paphos'
-  },
+          },
   'CZ' => {
             '52' => 'Hlavni mesto Praha',
             '78' => 'Jihomoravsky kraj',
@@ -1319,7 +1314,7 @@ my %country_region_names = (
             '88' => 'Stredocesky kraj',
             '89' => 'Ustecky kraj',
             '90' => 'Zlinsky kraj'
-  },
+          },
   'DE' => {
             '01' => 'Baden-Wurttemberg',
             '02' => 'Bayern',
@@ -1337,7 +1332,7 @@ my %country_region_names = (
             '14' => 'Sachsen-Anhalt',
             '15' => 'Thuringen',
             '16' => 'Berlin'
-  },
+          },
   'DJ' => {
             '01' => 'Ali Sabieh',
             '04' => 'Obock',
@@ -1345,14 +1340,14 @@ my %country_region_names = (
             '06' => 'Dikhil',
             '07' => 'Djibouti',
             '08' => 'Arta'
-  },
+          },
   'DK' => {
             '17' => 'Hovedstaden',
             '18' => 'Midtjylland',
             '19' => 'Nordjylland',
             '20' => 'Sjelland',
             '21' => 'Syddanmark'
-  },
+          },
   'DM' => {
             '02' => 'Saint Andrew',
             '03' => 'Saint David',
@@ -1364,7 +1359,7 @@ my %country_region_names = (
             '09' => 'Saint Patrick',
             '10' => 'Saint Paul',
             '11' => 'Saint Peter'
-  },
+          },
   'DO' => {
             '01' => 'Azua',
             '02' => 'Baoruco',
@@ -1400,7 +1395,7 @@ my %country_region_names = (
             '35' => 'Peravia',
             '36' => 'San Jose de Ocoa',
             '37' => 'Santo Domingo'
-  },
+          },
   'DZ' => {
             '01' => 'Alger',
             '03' => 'Batna',
@@ -1450,7 +1445,7 @@ my %country_region_names = (
             '54' => 'Tindouf',
             '55' => 'Tipaza',
             '56' => 'Tissemsilt'
-  },
+          },
   'EC' => {
             '01' => 'Galapagos',
             '02' => 'Azuay',
@@ -1474,7 +1469,7 @@ my %country_region_names = (
             '22' => 'Sucumbios',
             '23' => 'Napo',
             '24' => 'Orellana'
-  },
+          },
   'EE' => {
             '01' => 'Harjumaa',
             '02' => 'Hiiumaa',
@@ -1497,7 +1492,7 @@ my %country_region_names = (
             '19' => 'Valgamaa',
             '20' => 'Viljandimaa',
             '21' => 'Vorumaa'
-  },
+          },
   'EG' => {
             '01' => 'Ad Daqahliyah',
             '02' => 'Al Bahr al Ahmar',
@@ -1525,7 +1520,7 @@ my %country_region_names = (
             '24' => 'Suhaj',
             '26' => 'Janub Sina\'',
             '27' => 'Shamal Sina\''
-  },
+          },
   'ER' => {
             '01' => 'Anseba',
             '02' => 'Debub',
@@ -1533,7 +1528,7 @@ my %country_region_names = (
             '04' => 'Gash Barka',
             '05' => 'Ma\'akel',
             '06' => 'Semenawi K\'eyih Bahri'
-  },
+          },
   'ES' => {
             '07' => 'Islas Baleares',
             '27' => 'La Rioja',
@@ -1552,7 +1547,7 @@ my %country_region_names = (
             '58' => 'Galicia',
             '59' => 'Pais Vasco',
             '60' => 'Comunidad Valenciana'
-  },
+          },
   'ET' => {
             '44' => 'Adis Abeba',
             '45' => 'Afar',
@@ -1565,7 +1560,7 @@ my %country_region_names = (
             '52' => 'Sumale',
             '53' => 'Tigray',
             '54' => 'YeDebub Biheroch Bihereseboch na Hizboch'
-  },
+          },
   'FI' => {
             '01' => 'Aland',
             '06' => 'Lapland',
@@ -1573,20 +1568,20 @@ my %country_region_names = (
             '13' => 'Southern Finland',
             '14' => 'Eastern Finland',
             '15' => 'Western Finland'
-  },
+          },
   'FJ' => {
             '01' => 'Central',
             '02' => 'Eastern',
             '03' => 'Northern',
             '04' => 'Rotuma',
             '05' => 'Western'
-  },
+          },
   'FM' => {
             '01' => 'Kosrae',
             '02' => 'Pohnpei',
             '03' => 'Chuuk',
             '04' => 'Yap'
-  },
+          },
   'FR' => {
             '97' => 'Aquitaine',
             '98' => 'Auvergne',
@@ -1610,7 +1605,7 @@ my %country_region_names = (
             'B8' => 'Provence-Alpes-Cote d\'Azur',
             'B9' => 'Rhone-Alpes',
             'C1' => 'Alsace'
-  },
+          },
   'GA' => {
             '01' => 'Estuaire',
             '02' => 'Haut-Ogooue',
@@ -1621,7 +1616,7 @@ my %country_region_names = (
             '07' => 'Ogooue-Lolo',
             '08' => 'Ogooue-Maritime',
             '09' => 'Woleu-Ntem'
-  },
+          },
   'GB' => {
             'A1' => 'Barking and Dagenham',
             'A2' => 'Barnet',
@@ -1851,8 +1846,13 @@ my %country_region_names = (
             'Z1' => 'Swansea',
             'Z2' => 'Torfaen',
             'Z3' => 'Vale of Glamorgan, The',
-            'Z4' => 'Wrexham'
-  },
+            'Z4' => 'Wrexham',
+            'Z5' => 'Bedfordshire',
+            'Z6' => 'Central Bedfordshire',
+            'Z7' => 'Cheshire East',
+            'Z8' => 'Cheshire West and Chester',
+            'Z9' => 'Isles of Scilly'
+          },
   'GD' => {
             '01' => 'Saint Andrew',
             '02' => 'Saint David',
@@ -1860,7 +1860,7 @@ my %country_region_names = (
             '04' => 'Saint John',
             '05' => 'Saint Mark',
             '06' => 'Saint Patrick'
-  },
+          },
   'GE' => {
             '01' => 'Abashis Raioni',
             '02' => 'Abkhazia',
@@ -1926,7 +1926,7 @@ my %country_region_names = (
             '62' => 'Zestap\'onis Raioni',
             '63' => 'Zugdidi',
             '64' => 'Zugdidis Raioni'
-  },
+          },
   'GH' => {
             '01' => 'Greater Accra',
             '02' => 'Ashanti',
@@ -1938,12 +1938,12 @@ my %country_region_names = (
             '09' => 'Western',
             '10' => 'Upper East',
             '11' => 'Upper West'
-  },
+          },
   'GL' => {
             '01' => 'Nordgronland',
             '02' => 'Ostgronland',
             '03' => 'Vestgronland'
-  },
+          },
   'GM' => {
             '01' => 'Banjul',
             '02' => 'Lower River',
@@ -1951,7 +1951,7 @@ my %country_region_names = (
             '04' => 'Upper River',
             '05' => 'Western',
             '07' => 'North Bank'
-  },
+          },
   'GN' => {
             '01' => 'Beyla',
             '02' => 'Boffa',
@@ -1987,7 +1987,7 @@ my %country_region_names = (
             '37' => 'Mandiana',
             '38' => 'Nzerekore',
             '39' => 'Siguiri'
-  },
+          },
   'GQ' => {
             '03' => 'Annobon',
             '04' => 'Bioko Norte',
@@ -1996,7 +1996,7 @@ my %country_region_names = (
             '07' => 'Kie-Ntem',
             '08' => 'Litoral',
             '09' => 'Wele-Nzas'
-  },
+          },
   'GR' => {
             '01' => 'Evros',
             '02' => 'Rodhopi',
@@ -2049,7 +2049,7 @@ my %country_region_names = (
             '49' => 'Kikladhes',
             '50' => 'Khios',
             '51' => 'Lesvos'
-  },
+          },
   'GT' => {
             '01' => 'Alta Verapaz',
             '02' => 'Baja Verapaz',
@@ -2073,7 +2073,7 @@ my %country_region_names = (
             '20' => 'Suchitepequez',
             '21' => 'Totonicapan',
             '22' => 'Zacapa'
-  },
+          },
   'GW' => {
             '01' => 'Bafata',
             '02' => 'Quinara',
@@ -2084,7 +2084,7 @@ my %country_region_names = (
             '10' => 'Gabu',
             '11' => 'Bissau',
             '12' => 'Biombo'
-  },
+          },
   'GY' => {
             '10' => 'Barima-Waini',
             '11' => 'Cuyuni-Mazaruni',
@@ -2096,7 +2096,7 @@ my %country_region_names = (
             '17' => 'Potaro-Siparuni',
             '18' => 'Upper Demerara-Berbice',
             '19' => 'Upper Takutu-Upper Essequibo'
-  },
+          },
   'HN' => {
             '01' => 'Atlantida',
             '02' => 'Choluteca',
@@ -2116,7 +2116,7 @@ my %country_region_names = (
             '16' => 'Santa Barbara',
             '17' => 'Valle',
             '18' => 'Yoro'
-  },
+          },
   'HR' => {
             '01' => 'Bjelovarsko-Bilogorska',
             '02' => 'Brodsko-Posavska',
@@ -2139,7 +2139,7 @@ my %country_region_names = (
             '19' => 'Zadarska',
             '20' => 'Zagrebacka',
             '21' => 'Grad Zagreb'
-  },
+          },
   'HT' => {
             '03' => 'Nord-Ouest',
             '06' => 'Artibonite',
@@ -2151,7 +2151,7 @@ my %country_region_names = (
             '13' => 'Sud-Est',
             '14' => 'Grand\' Anse',
             '15' => 'Nippes'
-  },
+          },
   'HU' => {
             '01' => 'Bacs-Kiskun',
             '02' => 'Baranya',
@@ -2196,33 +2196,26 @@ my %country_region_names = (
             '41' => 'Salgotarjan',
             '42' => 'Szekszard',
             '43' => 'Erd'
-  },
+          },
   'ID' => {
             '01' => 'Aceh',
             '02' => 'Bali',
             '03' => 'Bengkulu',
             '04' => 'Jakarta Raya',
             '05' => 'Jambi',
-            '06' => 'Jawa Barat',
             '07' => 'Jawa Tengah',
             '08' => 'Jawa Timur',
-            '09' => 'Papua',
             '10' => 'Yogyakarta',
             '11' => 'Kalimantan Barat',
             '12' => 'Kalimantan Selatan',
             '13' => 'Kalimantan Tengah',
             '14' => 'Kalimantan Timur',
             '15' => 'Lampung',
-            '16' => 'Maluku',
             '17' => 'Nusa Tenggara Barat',
             '18' => 'Nusa Tenggara Timur',
-            '19' => 'Riau',
-            '20' => 'Sulawesi Selatan',
             '21' => 'Sulawesi Tengah',
             '22' => 'Sulawesi Tenggara',
-            '23' => 'Sulawesi Utara',
             '24' => 'Sumatera Barat',
-            '25' => 'Sumatera Selatan',
             '26' => 'Sumatera Utara',
             '28' => 'Maluku',
             '29' => 'Maluku Utara',
@@ -2238,7 +2231,7 @@ my %country_region_names = (
             '39' => 'Irian Jaya Barat',
             '40' => 'Kepulauan Riau',
             '41' => 'Sulawesi Barat'
-  },
+          },
   'IE' => {
             '01' => 'Carlow',
             '02' => 'Cavan',
@@ -2266,7 +2259,7 @@ my %country_region_names = (
             '29' => 'Westmeath',
             '30' => 'Wexford',
             '31' => 'Wicklow'
-  },
+          },
   'IL' => {
             '01' => 'HaDarom',
             '02' => 'HaMerkaz',
@@ -2274,7 +2267,7 @@ my %country_region_names = (
             '04' => 'Hefa',
             '05' => 'Tel Aviv',
             '06' => 'Yerushalayim'
-  },
+          },
   'IN' => {
             '01' => 'Andaman and Nicobar Islands',
             '02' => 'Andhra Pradesh',
@@ -2311,7 +2304,7 @@ my %country_region_names = (
             '37' => 'Chhattisgarh',
             '38' => 'Jharkhand',
             '39' => 'Uttarakhand'
-  },
+          },
   'IQ' => {
             '01' => 'Al Anbar',
             '02' => 'Al Basrah',
@@ -2331,7 +2324,7 @@ my %country_region_names = (
             '16' => 'Wasit',
             '17' => 'An Najaf',
             '18' => 'Salah ad Din'
-  },
+          },
   'IR' => {
             '01' => 'Azarbayjan-e Bakhtari',
             '03' => 'Chahar Mahall va Bakhtiari',
@@ -2371,8 +2364,9 @@ my %country_region_names = (
             '40' => 'Yazd',
             '41' => 'Khorasan-e Janubi',
             '42' => 'Khorasan-e Razavi',
-            '43' => 'Khorasan-e Shemali'
-  },
+            '43' => 'Khorasan-e Shemali',
+            '44' => 'Alborz'
+          },
   'IS' => {
             '03' => 'Arnessysla',
             '05' => 'Austur-Hunavatnssysla',
@@ -2394,13 +2388,15 @@ my %country_region_names = (
             '35' => 'Vestur-Hunavatnssysla',
             '36' => 'Vestur-Isafjardarsysla',
             '37' => 'Vestur-Skaftafellssysla',
+            '38' => 'Austurland',
+            '39' => 'Hofuoborgarsvaoio',
             '40' => 'Norourland Eystra',
             '41' => 'Norourland Vestra',
             '42' => 'Suourland',
             '43' => 'Suournes',
             '44' => 'Vestfiroir',
             '45' => 'Vesturland'
-  },
+          },
   'IT' => {
             '01' => 'Abruzzi',
             '02' => 'Basilicata',
@@ -2422,7 +2418,7 @@ my %country_region_names = (
             '18' => 'Umbria',
             '19' => 'Valle d\'Aosta',
             '20' => 'Veneto'
-  },
+          },
   'JM' => {
             '01' => 'Clarendon',
             '02' => 'Hanover',
@@ -2438,18 +2434,21 @@ my %country_region_names = (
             '15' => 'Trelawny',
             '16' => 'Westmoreland',
             '17' => 'Kingston'
-  },
+          },
   'JO' => {
             '02' => 'Al Balqa\'',
-            '07' => 'Ma',
             '09' => 'Al Karak',
-            '10' => 'Al Mafraq',
-            '11' => 'Amman Governorate',
             '12' => 'At Tafilah',
-            '13' => 'Az Zarqa',
-            '14' => 'Irbid',
-            '16' => 'Amman'
-  },
+            '15' => 'Al Mafraq',
+            '16' => 'Amman',
+            '17' => 'Az Zaraqa',
+            '18' => 'Irbid',
+            '19' => 'Ma\'an',
+            '20' => 'Ajlun',
+            '21' => 'Al Aqabah',
+            '22' => 'Jarash',
+            '23' => 'Madaba'
+          },
   'JP' => {
             '01' => 'Aichi',
             '02' => 'Akita',
@@ -2498,7 +2497,7 @@ my %country_region_names = (
             '45' => 'Yamaguchi',
             '46' => 'Yamanashi',
             '47' => 'Okinawa'
-  },
+          },
   'KE' => {
             '01' => 'Central',
             '02' => 'Coast',
@@ -2508,7 +2507,7 @@ my %country_region_names = (
             '07' => 'Nyanza',
             '08' => 'Rift Valley',
             '09' => 'Western'
-  },
+          },
   'KG' => {
             '01' => 'Bishkek',
             '02' => 'Chuy',
@@ -2519,7 +2518,7 @@ my %country_region_names = (
             '07' => 'Ysyk-Kol',
             '08' => 'Osh',
             '09' => 'Batken'
-  },
+          },
   'KH' => {
             '01' => 'Batdambang',
             '02' => 'Kampong Cham',
@@ -2543,17 +2542,17 @@ my %country_region_names = (
             '25' => 'Banteay Meanchey',
             '29' => 'Batdambang',
             '30' => 'Pailin'
-  },
+          },
   'KI' => {
             '01' => 'Gilbert Islands',
             '02' => 'Line Islands',
             '03' => 'Phoenix Islands'
-  },
+          },
   'KM' => {
             '01' => 'Anjouan',
             '02' => 'Grande Comore',
             '03' => 'Moheli'
-  },
+          },
   'KN' => {
             '01' => 'Christ Church Nichola Town',
             '02' => 'Saint Anne Sandy Point',
@@ -2569,7 +2568,7 @@ my %country_region_names = (
             '12' => 'Saint Thomas Lowland',
             '13' => 'Saint Thomas Middle Island',
             '15' => 'Trinity Palmetto Point'
-  },
+          },
   'KP' => {
             '01' => 'Chagang-do',
             '03' => 'Hamgyong-namdo',
@@ -2584,7 +2583,7 @@ my %country_region_names = (
             '15' => 'P\'yongan-namdo',
             '17' => 'Hamgyong-bukto',
             '18' => 'Najin Sonbong-si'
-  },
+          },
   'KR' => {
             '01' => 'Cheju-do',
             '03' => 'Cholla-bukto',
@@ -2602,7 +2601,7 @@ my %country_region_names = (
             '19' => 'Taejon-jikhalsi',
             '20' => 'Kyongsang-namdo',
             '21' => 'Ulsan-gwangyoksi'
-  },
+          },
   'KW' => {
             '01' => 'Al Ahmadi',
             '02' => 'Al Kuwayt',
@@ -2610,7 +2609,7 @@ my %country_region_names = (
             '07' => 'Al Farwaniyah',
             '08' => 'Hawalli',
             '09' => 'Mubarak al Kabir'
-  },
+          },
   'KY' => {
             '01' => 'Creek',
             '02' => 'Eastern',
@@ -2620,7 +2619,7 @@ my %country_region_names = (
             '06' => 'Stake Bay',
             '07' => 'West End',
             '08' => 'Western'
-  },
+          },
   'KZ' => {
             '01' => 'Almaty',
             '02' => 'Almaty City',
@@ -2639,7 +2638,7 @@ my %country_region_names = (
             '15' => 'East Kazakhstan',
             '16' => 'North Kazakhstan',
             '17' => 'Zhambyl'
-  },
+          },
   'LA' => {
             '01' => 'Attapu',
             '02' => 'Champasak',
@@ -2654,7 +2653,7 @@ my %country_region_names = (
             '13' => 'Xaignabouri',
             '14' => 'Xiangkhoang',
             '17' => 'Louangphrabang'
-  },
+          },
   'LB' => {
             '01' => 'Beqaa',
             '02' => 'Al Janub',
@@ -2667,7 +2666,7 @@ my %country_region_names = (
             '09' => 'Liban-Nord',
             '10' => 'Aakk,r',
             '11' => 'Baalbek-Hermel'
-  },
+          },
   'LC' => {
             '01' => 'Anse-la-Raye',
             '02' => 'Dauphin',
@@ -2680,7 +2679,7 @@ my %country_region_names = (
             '09' => 'Soufriere',
             '10' => 'Vieux-Fort',
             '11' => 'Praslin'
-  },
+          },
   'LI' => {
             '01' => 'Balzers',
             '02' => 'Eschen',
@@ -2695,41 +2694,18 @@ my %country_region_names = (
             '11' => 'Vaduz',
             '21' => 'Gbarpolu',
             '22' => 'River Gee'
-  },
+          },
   'LK' => {
-            '01' => 'Amparai',
-            '02' => 'Anuradhapura',
-            '03' => 'Badulla',
-            '04' => 'Batticaloa',
-            '06' => 'Galle',
-            '07' => 'Hambantota',
-            '09' => 'Kalutara',
-            '10' => 'Kandy',
-            '11' => 'Kegalla',
-            '12' => 'Kurunegala',
-            '14' => 'Matale',
-            '15' => 'Matara',
-            '16' => 'Moneragala',
-            '17' => 'Nuwara Eliya',
-            '18' => 'Polonnaruwa',
-            '19' => 'Puttalam',
-            '20' => 'Ratnapura',
-            '21' => 'Trincomalee',
-            '23' => 'Colombo',
-            '24' => 'Gampaha',
-            '25' => 'Jaffna',
-            '26' => 'Mannar',
-            '27' => 'Mullaittivu',
-            '28' => 'Vavuniya',
             '29' => 'Central',
             '30' => 'North Central',
-            '31' => 'Northern',
             '32' => 'North Western',
             '33' => 'Sabaragamuwa',
             '34' => 'Southern',
             '35' => 'Uva',
-            '36' => 'Western'
-  },
+            '36' => 'Western',
+            '37' => 'Eastern',
+            '38' => 'Northern'
+          },
   'LR' => {
             '01' => 'Bong',
             '04' => 'Grand Cape Mount',
@@ -2748,7 +2724,7 @@ my %country_region_names = (
             '20' => 'Lofa',
             '21' => 'Gbarpolu',
             '22' => 'River Gee'
-  },
+          },
   'LS' => {
             '10' => 'Berea',
             '11' => 'Butha-Buthe',
@@ -2760,7 +2736,7 @@ my %country_region_names = (
             '17' => 'Qachas Nek',
             '18' => 'Quthing',
             '19' => 'Thaba-Tseka'
-  },
+          },
   'LT' => {
             '56' => 'Alytaus Apskritis',
             '57' => 'Kauno Apskritis',
@@ -2772,12 +2748,12 @@ my %country_region_names = (
             '63' => 'Telsiu Apskritis',
             '64' => 'Utenos Apskritis',
             '65' => 'Vilniaus Apskritis'
-  },
+          },
   'LU' => {
             '01' => 'Diekirch',
             '02' => 'Grevenmacher',
             '03' => 'Luxembourg'
-  },
+          },
   'LV' => {
             '01' => 'Aizkraukles',
             '02' => 'Aluksnes',
@@ -2812,7 +2788,7 @@ my %country_region_names = (
             '31' => 'Valmieras',
             '32' => 'Ventspils',
             '33' => 'Ventspils'
-  },
+          },
   'LY' => {
             '03' => 'Al Aziziyah',
             '05' => 'Al Jufrah',
@@ -2839,7 +2815,7 @@ my %country_region_names = (
             '60' => 'Surt',
             '61' => 'Tarabulus',
             '62' => 'Yafran'
-  },
+          },
   'MA' => {
             '45' => 'Grand Casablanca',
             '46' => 'Fes-Boulemane',
@@ -2856,12 +2832,12 @@ my %country_region_names = (
             '57' => 'Tanger-Tetouan',
             '58' => 'Taza-Al Hoceima-Taounate',
             '59' => 'La,youne-Boujdour-Sakia El Hamra'
-  },
+          },
   'MC' => {
             '01' => 'La Condamine',
             '02' => 'Monaco',
             '03' => 'Monte-Carlo'
-  },
+          },
   'MD' => {
             '51' => 'Gagauzia',
             '57' => 'Chisinau',
@@ -2889,6 +2865,7 @@ my %country_region_names = (
             '79' => 'Leova',
             '80' => 'Nisporeni',
             '81' => 'Ocnita',
+            '82' => 'Orhei',
             '83' => 'Rezina',
             '84' => 'Riscani',
             '85' => 'Singerei',
@@ -2899,7 +2876,7 @@ my %country_region_names = (
             '90' => 'Taraclia',
             '91' => 'Telenesti',
             '92' => 'Ungheni'
-  },
+          },
   'MG' => {
             '01' => 'Antsiranana',
             '02' => 'Fianarantsoa',
@@ -2907,7 +2884,7 @@ my %country_region_names = (
             '04' => 'Toamasina',
             '05' => 'Antananarivo',
             '06' => 'Toliara'
-  },
+          },
   'MK' => {
             '01' => 'Aracinovo',
             '02' => 'Bac',
@@ -3032,7 +3009,7 @@ my %country_region_names = (
             'C4' => 'Zitose',
             'C5' => 'Zletovo',
             'C6' => 'Zrnovci'
-  },
+          },
   'ML' => {
             '01' => 'Bamako',
             '03' => 'Kayes',
@@ -3043,7 +3020,7 @@ my %country_region_names = (
             '08' => 'Tombouctou',
             '09' => 'Gao',
             '10' => 'Kidal'
-  },
+          },
   'MM' => {
             '01' => 'Rakhine State',
             '02' => 'Chin State',
@@ -3060,7 +3037,7 @@ my %country_region_names = (
             '13' => 'Mon State',
             '14' => 'Rangoon',
             '17' => 'Yangon'
-  },
+          },
   'MN' => {
             '01' => 'Arhangay',
             '02' => 'Bayanhongor',
@@ -3086,11 +3063,11 @@ my %country_region_names = (
             '23' => 'Darhan-Uul',
             '24' => 'Govisumber',
             '25' => 'Orhon'
-  },
+          },
   'MO' => {
             '01' => 'Ilhas',
             '02' => 'Macau'
-  },
+          },
   'MR' => {
             '01' => 'Hodh Ech Chargui',
             '02' => 'Hodh El Gharbi',
@@ -3104,12 +3081,12 @@ my %country_region_names = (
             '10' => 'Guidimaka',
             '11' => 'Tiris Zemmour',
             '12' => 'Inchiri'
-  },
+          },
   'MS' => {
             '01' => 'Saint Anthony',
             '02' => 'Saint Georges',
             '03' => 'Saint Peter'
-  },
+          },
   'MU' => {
             '12' => 'Black River',
             '13' => 'Flacq',
@@ -3123,7 +3100,7 @@ my %country_region_names = (
             '21' => 'Agalega Islands',
             '22' => 'Cargados Carajos',
             '23' => 'Rodrigues'
-  },
+          },
   'MV' => {
             '01' => 'Seenu',
             '05' => 'Laamu',
@@ -3145,7 +3122,7 @@ my %country_region_names = (
             '45' => 'Shaviyani',
             '46' => 'Thaa',
             '47' => 'Vaavu'
-  },
+          },
   'MW' => {
             '02' => 'Chikwawa',
             '03' => 'Chiradzulu',
@@ -3174,7 +3151,7 @@ my %country_region_names = (
             '28' => 'Machinga',
             '29' => 'Mulanje',
             '30' => 'Phalombe'
-  },
+          },
   'MX' => {
             '01' => 'Aguascalientes',
             '02' => 'Baja California',
@@ -3208,7 +3185,7 @@ my %country_region_names = (
             '30' => 'Veracruz-Llave',
             '31' => 'Yucatan',
             '32' => 'Zacatecas'
-  },
+          },
   'MY' => {
             '01' => 'Johor',
             '02' => 'Kedah',
@@ -3226,7 +3203,7 @@ my %country_region_names = (
             '15' => 'Labuan',
             '16' => 'Sabah',
             '17' => 'Putrajaya'
-  },
+          },
   'MZ' => {
             '01' => 'Cabo Delgado',
             '02' => 'Gaza',
@@ -3239,7 +3216,7 @@ my %country_region_names = (
             '09' => 'Zambezia',
             '10' => 'Manica',
             '11' => 'Maputo'
-  },
+          },
   'NA' => {
             '01' => 'Bethanien',
             '02' => 'Caprivi Oos',
@@ -3279,7 +3256,7 @@ my %country_region_names = (
             '37' => 'Oshana',
             '38' => 'Oshikoto',
             '39' => 'Otjozondjupa'
-  },
+          },
   'NE' => {
             '01' => 'Agadez',
             '02' => 'Diffa',
@@ -3289,7 +3266,7 @@ my %country_region_names = (
             '06' => 'Tahoua',
             '07' => 'Zinder',
             '08' => 'Niamey'
-  },
+          },
   'NG' => {
             '05' => 'Lagos',
             '11' => 'Federal Capital Territory',
@@ -3328,7 +3305,7 @@ my %country_region_names = (
             '55' => 'Gombe',
             '56' => 'Nassarawa',
             '57' => 'Zamfara'
-  },
+          },
   'NI' => {
             '01' => 'Boaco',
             '02' => 'Carazo',
@@ -3348,7 +3325,7 @@ my %country_region_names = (
             '16' => 'Zelaya',
             '17' => 'Autonoma Atlantico Norte',
             '18' => 'Region Autonoma Atlantico Sur'
-  },
+          },
   'NL' => {
             '01' => 'Drenthe',
             '02' => 'Friesland',
@@ -3357,13 +3334,12 @@ my %country_region_names = (
             '05' => 'Limburg',
             '06' => 'Noord-Brabant',
             '07' => 'Noord-Holland',
-            '08' => 'Overijssel',
             '09' => 'Utrecht',
             '10' => 'Zeeland',
             '11' => 'Zuid-Holland',
             '15' => 'Overijssel',
             '16' => 'Flevoland'
-  },
+          },
   'NO' => {
             '01' => 'Akershus',
             '02' => 'Aust-Agder',
@@ -3384,7 +3360,7 @@ my %country_region_names = (
             '18' => 'Troms',
             '19' => 'Vest-Agder',
             '20' => 'Vestfold'
-  },
+          },
   'NP' => {
             '01' => 'Bagmati',
             '02' => 'Bheri',
@@ -3400,7 +3376,7 @@ my %country_region_names = (
             '12' => 'Rapti',
             '13' => 'Sagarmatha',
             '14' => 'Seti'
-  },
+          },
   'NR' => {
             '01' => 'Aiwo',
             '02' => 'Anabar',
@@ -3416,7 +3392,7 @@ my %country_region_names = (
             '12' => 'Nibok',
             '13' => 'Uaboe',
             '14' => 'Yaren'
-  },
+          },
   'NZ' => {
             '10' => 'Chatham Islands',
             'E7' => 'Auckland',
@@ -3434,7 +3410,7 @@ my %country_region_names = (
             'G1' => 'Waikato',
             'G2' => 'Wellington',
             'G3' => 'West Coast'
-  },
+          },
   'OM' => {
             '01' => 'Ad Dakhiliyah',
             '02' => 'Al Batinah',
@@ -3444,7 +3420,7 @@ my %country_region_names = (
             '06' => 'Masqat',
             '07' => 'Musandam',
             '08' => 'Zufar'
-  },
+          },
   'PA' => {
             '01' => 'Bocas del Toro',
             '02' => 'Chiriqui',
@@ -3456,7 +3432,7 @@ my %country_region_names = (
             '08' => 'Panama',
             '09' => 'San Blas',
             '10' => 'Veraguas'
-  },
+          },
   'PE' => {
             '01' => 'Amazonas',
             '02' => 'Ancash',
@@ -3483,7 +3459,7 @@ my %country_region_names = (
             '23' => 'Tacna',
             '24' => 'Tumbes',
             '25' => 'Ucayali'
-  },
+          },
   'PG' => {
             '01' => 'Central',
             '02' => 'Gulf',
@@ -3505,7 +3481,7 @@ my %country_region_names = (
             '18' => 'Sandaun',
             '19' => 'Enga',
             '20' => 'National Capital'
-  },
+          },
   'PH' => {
             '01' => 'Abra',
             '02' => 'Agusan del Norte',
@@ -3641,8 +3617,20 @@ my %country_region_names = (
             'G7' => 'Zamboanga',
             'G8' => 'Aurora',
             'H2' => 'Quezon',
-            'H3' => 'Negros Occidental'
-  },
+            'H3' => 'Negros Occidental',
+            'I6' => 'Compostela Valley',
+            'I7' => 'Davao del Norte',
+            'J7' => 'Kalinga',
+            'K6' => 'Malaybalay',
+            'M5' => 'San Jose del Monte',
+            'M6' => 'San Juan',
+            'M8' => 'Santiago',
+            'M9' => 'Sarangani',
+            'N1' => 'Sipalay',
+            'N3' => 'Surigao del Norte',
+            'P1' => 'Zambales',
+            'P2' => 'Zamboanga'
+          },
   'PK' => {
             '01' => 'Federally Administered Tribal Areas',
             '02' => 'Balochistan',
@@ -3652,7 +3640,7 @@ my %country_region_names = (
             '06' => 'Azad Kashmir',
             '07' => 'Northern Areas',
             '08' => 'Islamabad'
-  },
+          },
   'PL' => {
             '72' => 'Dolnoslaskie',
             '73' => 'Kujawsko-Pomorskie',
@@ -3670,11 +3658,11 @@ my %country_region_names = (
             '85' => 'Warminsko-Mazurskie',
             '86' => 'Wielkopolskie',
             '87' => 'Zachodniopomorskie'
-  },
+          },
   'PS' => {
             'GZ' => 'Gaza',
             'WE' => 'West Bank'
-  },
+          },
   'PT' => {
             '02' => 'Aveiro',
             '03' => 'Beja',
@@ -3696,7 +3684,7 @@ my %country_region_names = (
             '21' => 'Vila Real',
             '22' => 'Viseu',
             '23' => 'Azores'
-  },
+          },
   'PY' => {
             '01' => 'Alto Parana',
             '02' => 'Amambay',
@@ -3717,7 +3705,7 @@ my %country_region_names = (
             '20' => 'Chaco',
             '21' => 'Nueva Asuncion',
             '23' => 'Alto Paraguay'
-  },
+          },
   'QA' => {
             '01' => 'Ad Dawhah',
             '02' => 'Al Ghuwariyah',
@@ -3730,7 +3718,7 @@ my %country_region_names = (
             '10' => 'Al Wakrah',
             '11' => 'Jariyan al Batnah',
             '12' => 'Umm Sa\'id'
-  },
+          },
   'RO' => {
             '01' => 'Alba',
             '02' => 'Arad',
@@ -3774,11 +3762,11 @@ my %country_region_names = (
             '41' => 'Calarasi',
             '42' => 'Giurgiu',
             '43' => 'Ilfov'
-  },
+          },
   'RS' => {
             '01' => 'Kosovo',
             '02' => 'Vojvodina'
-  },
+          },
   'RU' => {
             '01' => 'Adygeya, Republic of',
             '02' => 'Aginsky Buryatsky AO',
@@ -3871,8 +3859,9 @@ my %country_region_names = (
             '89' => 'Yevrey',
             '90' => 'Permskiy Kray',
             '91' => 'Krasnoyarskiy Kray',
-            'CI' => 'Chechnya Republic'
-  },
+            '92' => 'Kamchatskiy Kray',
+            '93' => 'Zabaykal\'skiy Kray'
+          },
   'RW' => {
             '01' => 'Butare',
             '06' => 'Gitarama',
@@ -3883,15 +3872,14 @@ my %country_region_names = (
             '13' => 'Nord',
             '14' => 'Ouest',
             '15' => 'Sud'
-  },
+          },
   'SA' => {
             '02' => 'Al Bahah',
-            '03' => 'Al Jawf',
             '05' => 'Al Madinah',
             '06' => 'Ash Sharqiyah',
             '08' => 'Al Qasim',
-            '09' => 'Al Qurayyat',
             '10' => 'Ar Riyad',
+            '11' => 'Asir Province',
             '13' => 'Ha\'il',
             '14' => 'Makkah',
             '15' => 'Al Hudud ash Shamaliyah',
@@ -3899,7 +3887,7 @@ my %country_region_names = (
             '17' => 'Jizan',
             '19' => 'Tabuk',
             '20' => 'Al Jawf'
-  },
+          },
   'SB' => {
             '03' => 'Malaita',
             '06' => 'Guadalcanal',
@@ -3910,7 +3898,7 @@ my %country_region_names = (
             '11' => 'Western',
             '12' => 'Choiseul',
             '13' => 'Rennell and Bellona'
-  },
+          },
   'SC' => {
             '01' => 'Anse aux Pins',
             '02' => 'Anse Boileau',
@@ -3935,7 +3923,7 @@ my %country_region_names = (
             '21' => 'Port Glaud',
             '22' => 'Saint Louis',
             '23' => 'Takamaka'
-  },
+          },
   'SD' => {
             '27' => 'Al Wusta',
             '28' => 'Al Istiwa\'iyah',
@@ -3948,7 +3936,7 @@ my %country_region_names = (
             '35' => 'Upper Nile',
             '40' => 'Al Wahadah State',
             '44' => 'Central Equatoria State'
-  },
+          },
   'SE' => {
             '02' => 'Blekinge Lan',
             '03' => 'Gavleborgs Lan',
@@ -3971,155 +3959,209 @@ my %country_region_names = (
             '26' => 'Stockholms Lan',
             '27' => 'Skane Lan',
             '28' => 'Vastra Gotaland'
-  },
+          },
   'SH' => {
             '01' => 'Ascension',
             '02' => 'Saint Helena',
             '03' => 'Tristan da Cunha'
-  },
+          },
   'SI' => {
-            '01' => 'Ajdovscina',
-            '02' => 'Beltinci',
-            '03' => 'Bled',
-            '04' => 'Bohinj',
-            '05' => 'Borovnica',
-            '06' => 'Bovec',
-            '07' => 'Brda',
-            '08' => 'Brezice',
-            '09' => 'Brezovica',
-            '11' => 'Celje',
-            '12' => 'Cerklje na Gorenjskem',
-            '13' => 'Cerknica',
-            '14' => 'Cerkno',
-            '15' => 'Crensovci',
-            '16' => 'Crna na Koroskem',
-            '17' => 'Crnomelj',
-            '19' => 'Divaca',
-            '20' => 'Dobrepolje',
-            '22' => 'Dol pri Ljubljani',
-            '24' => 'Dornava',
-            '25' => 'Dravograd',
-            '26' => 'Duplek',
-            '27' => 'Gorenja Vas-Poljane',
-            '28' => 'Gorisnica',
-            '29' => 'Gornja Radgona',
-            '30' => 'Gornji Grad',
-            '31' => 'Gornji Petrovci',
-            '32' => 'Grosuplje',
-            '34' => 'Hrastnik',
-            '35' => 'Hrpelje-Kozina',
-            '36' => 'Idrija',
-            '37' => 'Ig',
-            '38' => 'Ilirska Bistrica',
-            '39' => 'Ivancna Gorica',
-            '40' => 'Izola-Isola',
-            '42' => 'Jursinci',
-            '44' => 'Kanal',
-            '45' => 'Kidricevo',
-            '46' => 'Kobarid',
-            '47' => 'Kobilje',
-            '49' => 'Komen',
-            '50' => 'Koper-Capodistria',
-            '51' => 'Kozje',
-            '52' => 'Kranj',
-            '53' => 'Kranjska Gora',
-            '54' => 'Krsko',
-            '55' => 'Kungota',
-            '57' => 'Lasko',
-            '61' => 'Ljubljana',
-            '62' => 'Ljubno',
-            '64' => 'Logatec',
-            '66' => 'Loski Potok',
-            '68' => 'Lukovica',
-            '71' => 'Medvode',
-            '72' => 'Menges',
-            '73' => 'Metlika',
-            '74' => 'Mezica',
-            '76' => 'Mislinja',
-            '77' => 'Moravce',
-            '78' => 'Moravske Toplice',
-            '79' => 'Mozirje',
-            '80' => 'Murska Sobota',
-            '81' => 'Muta',
-            '82' => 'Naklo',
-            '83' => 'Nazarje',
-            '84' => 'Nova Gorica',
-            '86' => 'Odranci',
-            '87' => 'Ormoz',
-            '88' => 'Osilnica',
-            '89' => 'Pesnica',
-            '91' => 'Pivka',
-            '92' => 'Podcetrtek',
-            '94' => 'Postojna',
-            '97' => 'Puconci',
-            '98' => 'Racam',
-            '99' => 'Radece',
-            'A1' => 'Radenci',
-            'A2' => 'Radlje ob Dravi',
-            'A3' => 'Radovljica',
-            'A6' => 'Rogasovci',
-            'A7' => 'Rogaska Slatina',
-            'A8' => 'Rogatec',
-            'B1' => 'Semic',
-            'B2' => 'Sencur',
-            'B3' => 'Sentilj',
-            'B4' => 'Sentjernej',
-            'B6' => 'Sevnica',
-            'B7' => 'Sezana',
-            'B8' => 'Skocjan',
-            'B9' => 'Skofja Loka',
-            'C1' => 'Skofljica',
-            'C2' => 'Slovenj Gradec',
-            'C4' => 'Slovenske Konjice',
-            'C5' => 'Smarje pri Jelsah',
-            'C6' => 'Smartno ob Paki',
-            'C7' => 'Sostanj',
-            'C8' => 'Starse',
-            'C9' => 'Store',
-            'D1' => 'Sveti Jurij',
-            'D2' => 'Tolmin',
-            'D3' => 'Trbovlje',
-            'D4' => 'Trebnje',
-            'D5' => 'Trzic',
-            'D6' => 'Turnisce',
-            'D7' => 'Velenje',
-            'D8' => 'Velike Lasce',
-            'E1' => 'Vipava',
-            'E2' => 'Vitanje',
-            'E3' => 'Vodice',
-            'E5' => 'Vrhnika',
-            'E6' => 'Vuzenica',
-            'E7' => 'Zagorje ob Savi',
-            'E9' => 'Zavrc',
-            'F1' => 'Zelezniki',
-            'F2' => 'Ziri',
-            'F3' => 'Zrece',
-            'G4' => 'Dobrova-Horjul-Polhov Gradec',
-            'G7' => 'Domzale',
-            'H4' => 'Jesenice',
-            'H6' => 'Kamnik',
-            'H7' => 'Kocevje',
-            'I2' => 'Kuzma',
-            'I3' => 'Lenart',
-            'I5' => 'Litija',
-            'I6' => 'Ljutomer',
-            'I7' => 'Loska Dolina',
-            'I9' => 'Luce',
-            'J1' => 'Majsperk',
-            'J2' => 'Maribor',
-            'J5' => 'Miren-Kostanjevica',
-            'J7' => 'Novo Mesto',
-            'J9' => 'Piran',
-            'K5' => 'Preddvor',
-            'K7' => 'Ptuj',
-            'L1' => 'Ribnica',
-            'L3' => 'Ruse',
-            'L7' => 'Sentjur pri Celju',
-            'L8' => 'Slovenska Bistrica',
-            'N2' => 'Videm',
-            'N3' => 'Vojnik',
-            'N5' => 'Zalec'
-  },
+            '01' => 'Ajdovscina Commune',
+            '02' => 'Beltinci Commune',
+            '03' => 'Bled Commune',
+            '04' => 'Bohinj Commune',
+            '05' => 'Borovnica Commune',
+            '06' => 'Bovec Commune',
+            '07' => 'Brda Commune',
+            '08' => 'Brezice Commune',
+            '09' => 'Brezovica Commune',
+            '11' => 'Celje Commune',
+            '12' => 'Cerklje na Gorenjskem Commune',
+            '13' => 'Cerknica Commune',
+            '14' => 'Cerkno Commune',
+            '15' => 'Crensovci Commune',
+            '16' => 'Crna na Koroskem Commune',
+            '17' => 'Crnomelj Commune',
+            '19' => 'Divaca Commune',
+            '20' => 'Dobrepolje Commune',
+            '22' => 'Dol pri Ljubljani Commune',
+            '24' => 'Dornava Commune',
+            '25' => 'Dravograd Commune',
+            '26' => 'Duplek Commune',
+            '27' => 'Gorenja vas-Poljane Commune',
+            '28' => 'Gorisnica Commune',
+            '29' => 'Gornja Radgona Commune',
+            '30' => 'Gornji Grad Commune',
+            '31' => 'Gornji Petrovci Commune',
+            '32' => 'Grosuplje Commune',
+            '34' => 'Hrastnik Commune',
+            '35' => 'Hrpelje-Kozina Commune',
+            '36' => 'Idrija Commune',
+            '37' => 'Ig Commune',
+            '38' => 'Ilirska Bistrica Commune',
+            '39' => 'Ivancna Gorica Commune',
+            '40' => 'Izola-Isola Commune',
+            '42' => 'Jursinci Commune',
+            '44' => 'Kanal Commune',
+            '45' => 'Kidricevo Commune',
+            '46' => 'Kobarid Commune',
+            '47' => 'Kobilje Commune',
+            '49' => 'Komen Commune',
+            '50' => 'Koper-Capodistria Urban Commune',
+            '51' => 'Kozje Commune',
+            '52' => 'Kranj Commune',
+            '53' => 'Kranjska Gora Commune',
+            '54' => 'Krsko Commune',
+            '55' => 'Kungota Commune',
+            '57' => 'Lasko Commune',
+            '61' => 'Ljubljana Urban Commune',
+            '62' => 'Ljubno Commune',
+            '64' => 'Logatec Commune',
+            '66' => 'Loski Potok Commune',
+            '68' => 'Lukovica Commune',
+            '71' => 'Medvode Commune',
+            '72' => 'Menges Commune',
+            '73' => 'Metlika Commune',
+            '74' => 'Mezica Commune',
+            '76' => 'Mislinja Commune',
+            '77' => 'Moravce Commune',
+            '78' => 'Moravske Toplice Commune',
+            '79' => 'Mozirje Commune',
+            '80' => 'Murska Sobota Urban Commune',
+            '81' => 'Muta Commune',
+            '82' => 'Naklo Commune',
+            '83' => 'Nazarje Commune',
+            '84' => 'Nova Gorica Urban Commune',
+            '86' => 'Odranci Commune',
+            '87' => 'Ormoz Commune',
+            '88' => 'Osilnica Commune',
+            '89' => 'Pesnica Commune',
+            '91' => 'Pivka Commune',
+            '92' => 'Podcetrtek Commune',
+            '94' => 'Postojna Commune',
+            '97' => 'Puconci Commune',
+            '98' => 'Race-Fram Commune',
+            '99' => 'Radece Commune',
+            'A1' => 'Radenci Commune',
+            'A2' => 'Radlje ob Dravi Commune',
+            'A3' => 'Radovljica Commune',
+            'A6' => 'Rogasovci Commune',
+            'A7' => 'Rogaska Slatina Commune',
+            'A8' => 'Rogatec Commune',
+            'B1' => 'Semic Commune',
+            'B2' => 'Sencur Commune',
+            'B3' => 'Sentilj Commune',
+            'B4' => 'Sentjernej Commune',
+            'B6' => 'Sevnica Commune',
+            'B7' => 'Sezana Commune',
+            'B8' => 'Skocjan Commune',
+            'B9' => 'Skofja Loka Commune',
+            'C1' => 'Skofljica Commune',
+            'C2' => 'Slovenj Gradec Urban Commune',
+            'C4' => 'Slovenske Konjice Commune',
+            'C5' => 'Smarje pri Jelsah Commune',
+            'C6' => 'Smartno ob Paki Commune',
+            'C7' => 'Sostanj Commune',
+            'C8' => 'Starse Commune',
+            'C9' => 'Store Commune',
+            'D1' => 'Sveti Jurij Commune',
+            'D2' => 'Tolmin Commune',
+            'D3' => 'Trbovlje Commune',
+            'D4' => 'Trebnje Commune',
+            'D5' => 'Trzic Commune',
+            'D6' => 'Turnisce Commune',
+            'D7' => 'Velenje Urban Commune',
+            'D8' => 'Velike Lasce Commune',
+            'E1' => 'Vipava Commune',
+            'E2' => 'Vitanje Commune',
+            'E3' => 'Vodice Commune',
+            'E5' => 'Vrhnika Commune',
+            'E6' => 'Vuzenica Commune',
+            'E7' => 'Zagorje ob Savi Commune',
+            'E9' => 'Zavrc Commune',
+            'F1' => 'Zelezniki Commune',
+            'F2' => 'Ziri Commune',
+            'F3' => 'Zrece Commune',
+            'F4' => 'Benedikt Commune',
+            'F5' => 'Bistrica ob Sotli Commune',
+            'F6' => 'Bloke Commune',
+            'F7' => 'Braslovce Commune',
+            'F8' => 'Cankova Commune',
+            'F9' => 'Cerkvenjak Commune',
+            'G1' => 'Destrnik Commune',
+            'G2' => 'Dobje Commune',
+            'G3' => 'Dobrna Commune',
+            'G4' => 'Dobrova-Horjul-Polhov Gradec Commune',
+            'G5' => 'Dobrovnik-Dobronak Commune',
+            'G6' => 'Dolenjske Toplice Commune',
+            'G7' => 'Domzale Commune',
+            'G8' => 'Grad Commune',
+            'G9' => 'Hajdina Commune',
+            'H1' => 'Hoce-Slivnica Commune',
+            'H2' => 'Hodos-Hodos Commune',
+            'H3' => 'Horjul Commune',
+            'H4' => 'Jesenice Commune',
+            'H5' => 'Jezersko Commune',
+            'H6' => 'Kamnik Commune',
+            'H7' => 'Kocevje Commune',
+            'H8' => 'Komenda Commune',
+            'H9' => 'Kostel Commune',
+            'I1' => 'Krizevci Commune',
+            'I2' => 'Kuzma Commune',
+            'I3' => 'Lenart Commune',
+            'I4' => 'Lendava-Lendva Commune',
+            'I5' => 'Litija Commune',
+            'I6' => 'Ljutomer Commune',
+            'I7' => 'Loska Dolina Commune',
+            'I8' => 'Lovrenc na Pohorju Commune',
+            'I9' => 'Luce Commune',
+            'J1' => 'Majsperk Commune',
+            'J2' => 'Maribor Commune',
+            'J3' => 'Markovci Commune',
+            'J4' => 'Miklavz na Dravskem polju Commune',
+            'J5' => 'Miren-Kostanjevica Commune',
+            'J6' => 'Mirna Pec Commune',
+            'J7' => 'Novo mesto Urban Commune',
+            'J8' => 'Oplotnica Commune',
+            'J9' => 'Piran-Pirano Commune',
+            'K1' => 'Podlehnik Commune',
+            'K2' => 'Podvelka Commune',
+            'K3' => 'Polzela Commune',
+            'K4' => 'Prebold Commune',
+            'K5' => 'Preddvor Commune',
+            'K6' => 'Prevalje Commune',
+            'K7' => 'Ptuj Urban Commune',
+            'K8' => 'Ravne na Koroskem Commune',
+            'K9' => 'Razkrizje Commune',
+            'L1' => 'Ribnica Commune',
+            'L2' => 'Ribnica na Pohorju Commune',
+            'L3' => 'Ruse Commune',
+            'L4' => 'Salovci Commune',
+            'L5' => 'Selnica ob Dravi Commune',
+            'L6' => 'Sempeter-Vrtojba Commune',
+            'L7' => 'Sentjur pri Celju Commune',
+            'L8' => 'Slovenska Bistrica Commune',
+            'L9' => 'Smartno pri Litiji Commune',
+            'M1' => 'Sodrazica Commune',
+            'M2' => 'Solcava Commune',
+            'M3' => 'Sveta Ana Commune',
+            'M4' => 'Sveti Andraz v Slovenskih goricah Commune',
+            'M5' => 'Tabor Commune',
+            'M6' => 'Tisina Commune',
+            'M7' => 'Trnovska vas Commune',
+            'M8' => 'Trzin Commune',
+            'M9' => 'Velika Polana Commune',
+            'N1' => 'Verzej Commune',
+            'N2' => 'Videm Commune',
+            'N3' => 'Vojnik Commune',
+            'N4' => 'Vransko Commune',
+            'N5' => 'Zalec Commune',
+            'N6' => 'Zetale Commune',
+            'N7' => 'Zirovnica Commune',
+            'N8' => 'Zuzemberk Commune',
+            'N9' => 'Apace Commune',
+            'O1' => 'Cirkulane Commune'
+          },
   'SK' => {
             '01' => 'Banska Bystrica',
             '02' => 'Bratislava',
@@ -4129,13 +4171,13 @@ my %country_region_names = (
             '06' => 'Trencin',
             '07' => 'Trnava',
             '08' => 'Zilina'
-  },
+          },
   'SL' => {
             '01' => 'Eastern',
             '02' => 'Northern',
             '03' => 'Southern',
             '04' => 'Western Area'
-  },
+          },
   'SM' => {
             '01' => 'Acquaviva',
             '02' => 'Chiesanuova',
@@ -4146,7 +4188,7 @@ my %country_region_names = (
             '07' => 'San Marino',
             '08' => 'Monte Giardino',
             '09' => 'Serravalle'
-  },
+          },
   'SN' => {
             '01' => 'Dakar',
             '03' => 'Diourbel',
@@ -4159,7 +4201,7 @@ my %country_region_names = (
             '13' => 'Louga',
             '14' => 'Saint-Louis',
             '15' => 'Matam'
-  },
+          },
   'SO' => {
             '01' => 'Bakool',
             '02' => 'Banaadir',
@@ -4181,7 +4223,7 @@ my %country_region_names = (
             '20' => 'Woqooyi Galbeed',
             '21' => 'Awdal',
             '22' => 'Sool'
-  },
+          },
   'SR' => {
             '10' => 'Brokopondo',
             '11' => 'Commewijne',
@@ -4193,11 +4235,11 @@ my %country_region_names = (
             '17' => 'Saramacca',
             '18' => 'Sipaliwini',
             '19' => 'Wanica'
-  },
+          },
   'ST' => {
             '01' => 'Principe',
             '02' => 'Sao Tome'
-  },
+          },
   'SV' => {
             '01' => 'Ahuachapan',
             '02' => 'Cabanas',
@@ -4213,7 +4255,7 @@ my %country_region_names = (
             '12' => 'San Vicente',
             '13' => 'Sonsonate',
             '14' => 'Usulutan'
-  },
+          },
   'SY' => {
             '01' => 'Al Hasakah',
             '02' => 'Al Ladhiqiyah',
@@ -4229,14 +4271,14 @@ my %country_region_names = (
             '12' => 'Idlib',
             '13' => 'Dimashq',
             '14' => 'Tartus'
-  },
+          },
   'SZ' => {
             '01' => 'Hhohho',
             '02' => 'Lubombo',
             '03' => 'Manzini',
             '04' => 'Shiselweni',
             '05' => 'Praslin'
-  },
+          },
   'TD' => {
             '01' => 'Batha',
             '02' => 'Biltine',
@@ -4252,14 +4294,14 @@ my %country_region_names = (
             '12' => 'Ouaddai',
             '13' => 'Salamat',
             '14' => 'Tandjile'
-  },
+          },
   'TG' => {
             '22' => 'Centrale',
             '23' => 'Kara',
             '24' => 'Maritime',
             '25' => 'Plateaux',
             '26' => 'Savanes'
-  },
+          },
   'TH' => {
             '01' => 'Mae Hong Son',
             '02' => 'Chiang Mai',
@@ -4333,25 +4375,26 @@ my %country_region_names = (
             '71' => 'Ubon Ratchathani',
             '72' => 'Yasothon',
             '73' => 'Nakhon Phanom',
+            '74' => 'Prachin Buri',
             '75' => 'Ubon Ratchathani',
             '76' => 'Udon Thani',
             '77' => 'Amnat Charoen',
             '78' => 'Mukdahan',
             '79' => 'Nong Bua Lamphu',
             '80' => 'Sa Kaeo'
-  },
+          },
   'TJ' => {
             '01' => 'Kuhistoni Badakhshon',
             '02' => 'Khatlon',
             '03' => 'Sughd'
-  },
+          },
   'TM' => {
             '01' => 'Ahal',
             '02' => 'Balkan',
             '03' => 'Dashoguz',
             '04' => 'Lebap',
             '05' => 'Mary'
-  },
+          },
   'TN' => {
             '02' => 'Kasserine',
             '03' => 'Kairouan',
@@ -4377,12 +4420,12 @@ my %country_region_names = (
             '37' => 'Zaghouan',
             '38' => 'Aiana',
             '39' => 'Manouba'
-  },
+          },
   'TO' => {
             '01' => 'Ha',
             '02' => 'Tongatapu',
             '03' => 'Vava'
-  },
+          },
   'TR' => {
             '02' => 'Adiyaman',
             '03' => 'Afyonkarahisar',
@@ -4465,7 +4508,7 @@ my %country_region_names = (
             '91' => 'Osmaniye',
             '92' => 'Yalova',
             '93' => 'Duzce'
-  },
+          },
   'TT' => {
             '01' => 'Arima',
             '02' => 'Caroni',
@@ -4479,13 +4522,13 @@ my %country_region_names = (
             '10' => 'San Fernando',
             '11' => 'Tobago',
             '12' => 'Victoria'
-  },
+          },
   'TW' => {
             '01' => 'Fu-chien',
             '02' => 'Kao-hsiung',
             '03' => 'T\'ai-pei',
             '04' => 'T\'ai-wan'
-  },
+          },
   'TZ' => {
             '02' => 'Pwani',
             '03' => 'Dodoma',
@@ -4513,7 +4556,7 @@ my %country_region_names = (
             '25' => 'Zanzibar Urban',
             '26' => 'Arusha',
             '27' => 'Manyara'
-  },
+          },
   'UA' => {
             '01' => 'Cherkas\'ka Oblast\'',
             '02' => 'Chernihivs\'ka Oblast\'',
@@ -4542,7 +4585,7 @@ my %country_region_names = (
             '25' => 'Zakarpats\'ka Oblast\'',
             '26' => 'Zaporiz\'ka Oblast\'',
             '27' => 'Zhytomyrs\'ka Oblast\''
-  },
+          },
   'UG' => {
             '26' => 'Apac',
             '28' => 'Bundibugyo',
@@ -4599,7 +4642,7 @@ my %country_region_names = (
             '95' => 'Soroti',
             '96' => 'Wakiso',
             '97' => 'Yumbe'
-  },
+          },
   'US' => {
             'AA' => 'Armed Forces Americas',
             'AE' => 'Armed Forces Europe, Middle East, & Canada',
@@ -4648,7 +4691,6 @@ my %country_region_names = (
             'OK' => 'Oklahoma',
             'OR' => 'Oregon',
             'PA' => 'Pennsylvania',
-            'PR' => 'Puerto Rico',
             'PW' => 'Palau',
             'RI' => 'Rhode Island',
             'SC' => 'South Carolina',
@@ -4663,7 +4705,7 @@ my %country_region_names = (
             'WI' => 'Wisconsin',
             'WV' => 'West Virginia',
             'WY' => 'Wyoming'
-  },
+          },
   'UY' => {
             '01' => 'Artigas',
             '02' => 'Canelones',
@@ -4684,7 +4726,7 @@ my %country_region_names = (
             '17' => 'Soriano',
             '18' => 'Tacuarembo',
             '19' => 'Treinta y Tres'
-  },
+          },
   'UZ' => {
             '01' => 'Andijon',
             '02' => 'Bukhoro',
@@ -4700,7 +4742,7 @@ my %country_region_names = (
             '12' => 'Surkhondaryo',
             '13' => 'Toshkent',
             '14' => 'Toshkent'
-  },
+          },
   'VC' => {
             '01' => 'Charlotte',
             '02' => 'Saint Andrew',
@@ -4708,7 +4750,7 @@ my %country_region_names = (
             '04' => 'Saint George',
             '05' => 'Saint Patrick',
             '06' => 'Grenadines'
-  },
+          },
   'VE' => {
             '01' => 'Amazonas',
             '02' => 'Anzoategui',
@@ -4735,7 +4777,7 @@ my %country_region_names = (
             '24' => 'Dependencias Federales',
             '25' => 'Distrito Federal',
             '26' => 'Vargas'
-  },
+          },
   'VN' => {
             '01' => 'An Giang',
             '03' => 'Ben Tre',
@@ -4753,38 +4795,37 @@ my %country_region_names = (
             '35' => 'Thai Binh',
             '37' => 'Tien Giang',
             '39' => 'Lang Son',
-            '43' => 'An Giang',
-            '44' => 'Dac Lac',
-            '45' => 'Dong Nai',
-            '46' => 'Dong Thap',
-            '47' => 'Kien Giang',
-            '49' => 'Song Be',
-            '50' => 'Vinh Phu',
-            '51' => 'Ha Noi',
-            '52' => 'Ho Chi Minh',
-            '53' => 'Ba Ria-Vung Tau',
-            '54' => 'Binh Dinh',
-            '55' => 'Binh Thuan',
-            '58' => 'Ha Giang',
-            '59' => 'Ha Tay',
-            '60' => 'Ha Tinh',
-            '61' => 'Hoa Binh',
-            '62' => 'Khanh Hoa',
-            '63' => 'Kon Tum',
+            '43' => 'Dong Nai',
+            '44' => 'Ha Noi',
+            '45' => 'Ba Ria-Vung Tau',
+            '46' => 'Binh Dinh',
+            '47' => 'Binh Thuan',
+            '49' => 'Gia Lai',
+            '50' => 'Ha Giang',
+            '52' => 'Ha Tinh',
+            '53' => 'Hoa Binh',
+            '54' => 'Khanh Hoa',
+            '55' => 'Kon Tum',
+            '58' => 'Nghe An',
+            '59' => 'Ninh Binh',
+            '60' => 'Ninh Thuan',
+            '61' => 'Phu Yen',
+            '62' => 'Quang Binh',
+            '63' => 'Quang Ngai',
             '64' => 'Quang Tri',
-            '65' => 'Nam Ha',
-            '66' => 'Nghe An',
-            '67' => 'Ninh Binh',
-            '68' => 'Ninh Thuan',
-            '69' => 'Phu Yen',
-            '70' => 'Quang Binh',
-            '71' => 'Quang Ngai',
-            '72' => 'Quang Tri',
-            '73' => 'Soc Trang',
-            '74' => 'Thua Thien',
-            '75' => 'Tra Vinh',
-            '76' => 'Tuyen Quang',
-            '77' => 'Vinh Long',
+            '65' => 'Soc Trang',
+            '66' => 'Thua Thien-Hue',
+            '67' => 'Tra Vinh',
+            '68' => 'Tuyen Quang',
+            '69' => 'Vinh Long',
+            '70' => 'Yen Bai',
+            '71' => 'Bac Giang',
+            '72' => 'Bac Kan',
+            '73' => 'Bac Lieu',
+            '74' => 'Bac Ninh',
+            '75' => 'Binh Duong',
+            '76' => 'Binh Phuoc',
+            '77' => 'Ca Mau',
             '78' => 'Da Nang',
             '79' => 'Hai Duong',
             '80' => 'Ha Nam',
@@ -4793,15 +4834,15 @@ my %country_region_names = (
             '83' => 'Phu Tho',
             '84' => 'Quang Nam',
             '85' => 'Thai Nguyen',
-            '86' => 'Vinh Puc Province',
+            '86' => 'Vinh Phuc',
             '87' => 'Can Tho',
-            '88' => 'Dak Lak',
+            '88' => 'Dac Lak',
             '89' => 'Lai Chau',
             '90' => 'Lao Cai',
             '91' => 'Dak Nong',
             '92' => 'Dien Bien',
             '93' => 'Hau Giang'
-  },
+          },
   'VU' => {
             '05' => 'Ambrym',
             '06' => 'Aoba',
@@ -4817,7 +4858,7 @@ my %country_region_names = (
             '16' => 'Malampa',
             '17' => 'Penama',
             '18' => 'Shefa'
-  },
+          },
   'WS' => {
             '02' => 'Aiga-i-le-Tai',
             '03' => 'Atua',
@@ -4829,27 +4870,34 @@ my %country_region_names = (
             '09' => 'Satupa',
             '10' => 'Tuamasaga',
             '11' => 'Vaisigano'
-  },
+          },
   'YE' => {
             '01' => 'Abyan',
             '02' => 'Adan',
             '03' => 'Al Mahrah',
             '04' => 'Hadramawt',
             '05' => 'Shabwah',
-            '06' => 'Al Ghaydah',
+            '06' => 'Lahij',
+            '07' => 'Al Bayda\'',
             '08' => 'Al Hudaydah',
+            '09' => 'Al Jawf',
             '10' => 'Al Mahwit',
             '11' => 'Dhamar',
+            '12' => 'Hajjah',
+            '13' => 'Ibb',
             '14' => 'Ma\'rib',
-            '15' => 'Sa',
-            '16' => 'San',
+            '15' => 'Sa\'dah',
+            '16' => 'San\'a\'',
+            '17' => 'Taizz',
+            '18' => 'Ad Dali',
+            '19' => 'Amran',
             '20' => 'Al Bayda\'',
             '21' => 'Al Jawf',
             '22' => 'Hajjah',
             '23' => 'Ibb',
             '24' => 'Lahij',
-            '25' => 'Ta'
-  },
+            '25' => 'Taizz'
+          },
   'ZA' => {
             '01' => 'North-Western Province',
             '02' => 'KwaZulu-Natal',
@@ -4861,7 +4909,7 @@ my %country_region_names = (
             '09' => 'Limpopo',
             '10' => 'North-West',
             '11' => 'Western Cape'
-  },
+          },
   'ZM' => {
             '01' => 'Western',
             '02' => 'Central',
@@ -4872,7 +4920,7 @@ my %country_region_names = (
             '07' => 'Southern',
             '08' => 'Copperbelt',
             '09' => 'Lusaka'
-  },
+          },
   'ZW' => {
             '01' => 'Manicaland',
             '02' => 'Midlands',
@@ -4884,7 +4932,7 @@ my %country_region_names = (
             '08' => 'Masvingo',
             '09' => 'Bulawayo',
             '10' => 'Harare'
-    }
+          }
 );
 
 sub continent_code_by_country_code { 
